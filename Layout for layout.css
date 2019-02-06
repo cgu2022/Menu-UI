@@ -1,0 +1,107 @@
+body { text-align: center;}
+body { font-family: sans-serif; }
+img.f{ position:fixed; top: 100px; left: 100px; width: 200px; z-index: 2;}
+.f{ position:fixed; top: 10px; left: 0px; z-index: 3;}
+h1   {margin: 10px auto;}
+p    {margin: 10px auto;}
+hr.line{margin: 10px auto;
+	  padding-left: 50px;
+	  padding-right: 50px;
+	  width: 800px;
+	  color: #ff66cc;}
+	  		#content	{	
+							clear: both;
+							width: 80%;
+							padding: 15px;					/* add padding all around to leave some blank space */
+							position: absolute;
+							text-align: center;
+						}
+			#sidebar	{
+							background:linear-gradient( to bottom, red 20%, #ff9933 40%, #ffff66 60%, #5cd65c 80%, #a300cc 100%);
+							width: 20%;
+							padding: 15px;					/* add padding all around to leave some blank space */
+							top: 15px;						/* top of sidebar section aligns to bottom of header */
+							left: 98.5%;					
+							position: absolute;
+							text-align: left;
+							z-index: 1;
+						}
+			#disabled { display: none;}
+			#enabled { display: inline;}
+.juice			{ margin: 0px auto; }
+			
+	.fun		{ 
+	border: 2px inset black; border-radius: 20px; 
+	width: 172px; height: 173px; padding: 10px; text-align: center; 
+	transition: width 3s, height 3s, transform 3s;
+		}
+	.fun:hover	{width: 343px; height: 346px; transform: rotate( 720deg ); }
+	
+	.meep		{ 
+	border: 2px inset black; border-radius: 20px; 
+	width: 150px; height: 105px; padding: 10px; text-align: center; 
+	transition: width 3s, height 3s, transform 3s;
+		}
+	.meep:hover	{width: 300px; height: 210px; transform: rotate( 720deg ); }
+	
+p.limited { width:300px; height:300px;}
+b.limitedr { width:300px; color:red;}  	  
+div.aboutJamba{width:100%;background:url(hb.jpg) #d2e5f6;margin:0}
+div.ff{width:100%;background:url(tmi.jpg) #d2e5f6;margin:0}
+div.hungry{width:100%;background:url(hungry.jpg) #d2e5f6;margin:0}
+div.sunback{ background:linear-gradient( to bottom, blue 20%, red 40%, yellow 70%);}
+div.explode{ background: radial-gradient( red 14%, orange 28%, yellow 42%, green 56%, blue 70%, violet 84%); }
+div.au{ background: radial-gradient( white 20%, #e5ffff 50%, #ccffff );}
+div.au2{ background: radial-gradient( white 20%, #e5ffff 50%, #ccffff ), url("blueberries.jpg"); background-position: center, right;}
+div.how{ background: #4AA842; }
+div.shiba{ width:50%;background:url(nsl.jpg) #d2e5f6;margin:auto; text-align: center; }
+div.JUSTDOIT{ width:37.5%;background:url(Not-working.gif) #d2e5f6;margin:auto; background-repeat: no-repeat; text-align: center; }
+div.DT{ width:50%;background:url(DT.gif) #d2e5f6;margin:auto;  text-align: center; }
+div.jog{ background:url(jog.jpg) #d2e5f6;margin:auto;  text-align: center; }
+div.rp{ background:url(rp.png) #d2e5f6;margin:auto;  text-align: center; }
+div.buttons{ background: white; border: 3px inset black;}
+div.white{ background-color: white; height: 500px;}
+div.aleft{ text-align: left; }
+img.left{ float: left;}
+img.right2{ float: right;}
+img.right{ float: right; position: relative; top: 0px; margin-top:-19px;}
+h1.sp{
+	font-family: Comic Sans MS;
+    font-size: 65px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding: 0;}
+footer.orange{ background: orange;}
+#map_canvas{ text-align:center;}
+footer {background-color: green;
+		width: 100%;}
+.green{ color:#1aff1a;}
+.green2{ color:#458D38;}
+.green3{ color:#c1d72f;}
+.red{ color: red;}
+.black{ color: black;}
+.brown{ color: brown;}
+.brown2{ color: #800000; text-shadow: black 0px 30px 10px;}
+.shadow{ text-shadow: black 0px 30px 10px; }
+.browna{ color: brown; text-shadow: black 0px 30px 10px;}
+.blue{ color: blue;}
+.bb{ color: #66ffff;}
+.white{ color: white;}
+.bluea{ color: blue; text-shadow: black 0px 30px 10px;}
+.mel{ color: #333300; text-shadow: black 0px 30px 10px;}
+.fel{ color: #ffccff; text-shadow: black 0px 30px 10px;}
+.a	{ text-shadow: black 0px 30px 10px; }
+	.center			{ margin: 0px auto; }
+			
+			.square			{ 
+							  border: 2px solid black; border-radius: 20px; 
+							  width: 763px; height: 337px; padding: 10px; text-align: center; 
+							  transition: width 3s, height 3s, transform 3s;
+							}
+							
+			.square:hover	{width: 400px; height: 400px; transform: rotate( 720deg ); }

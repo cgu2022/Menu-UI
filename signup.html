@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="Final Project">
+<link rel="stylesheet" type="text/css" href="Layout for layout.css">
+<script type="text/javascript" src="hp.js"></script>
+</head>
+<body onload="setbackground();">
+<div id="content">
+<header>
+<img class="square center" src="logo.png"  alt="Jumpin' Juice" />
+<nav>
+<a href="Website.html" ><img src="home.gif" alt="Home"></a> <a href="contactus.html"><img src="contact.gif"  alt="Contact Us"></a> <a href="aboutus.html"><img src="about.gif"  alt="About Us"></a> <a href="drinks.html"><img src="drinks.gif"  alt="Drinks"></a> <a href="signup.html"><img src="sign.gif"  alt="Sign Up"></a><a href="location.html" ><img src="location.gif"  alt="Locations"></a>
+<link rel="stylesheet" media="only screen and (max-width:1300px)" href="2.css" />
+</nav>
+<div class="buttons">
+<br /><br />
+<form>
+<input type="radio" value="Nobar" name="bar" onclick="nobar()" />Disable Sidebar
+<input type="radio" value="Yesbar" name="bar" onclick="yesbar()" />Enable Sidebar
+<br /><br />
+<input type="radio" value="Yesbar" name="back" onclick="bbar()" />Basic Sidebar
+<input type="radio" value="Nobar" name="back" onclick="fbar()" />Fancy Sidebar
+</form>
+<br />
+<div id="disabled">
+<a href="news.html" ><img src="news.gif"  alt="Home"></a>
+</div>
+</div>
+</header>
+<div id="sidebar"><!--sidebar start-->
+<h1>Marco Rubio drinks Jumpin' Juice's juice!</h1>
+<img src="drink.gif" width="220" height="200" />
+<br /><br /><br /><br /><br /><br />
+<h1>New Drink! The multi-fruit drink!</h1>
+<img class="fun juice" src="9.jpg" />
+<br /><br /><br /><br /><br /><br />
+<h1>Tell a cashier "FREE ICE CREAM" to your cashier during ordering and you will get free ice cream. Offer ends until 1/1/17</h1>
+<br /><br /><br /><br />
+<p>Click</p><a href="signup.html" >here</a><p>to sign up for a free weekly email for a code to have 10% off on next purchases</p>
+<br /><br />
+<input type="button" value="1/1000 chance of code" name="B1" onclick="codegift()">
+<br /><br /><br     />
+<h4>Phone number: 999 or 911</h4>
+<h4>Email: no@one.net</h4>
+</div><!-- sidebar end -->
+<div class="white"/>
+<img class="left" src="left.png" />
+<br />
+<img class="right" src="right.png" />
+<form onsubmit="checkit()">
+<h4 class="black">Phone Number</h4>
+<input required type="tel" name="phone" />
+<h4 class="black">Email</h4>
+<input required type="email" name="email" id="hi" />
+<h4 class="black">Password</h4>
+<input required type="password" name="password" />
+<br />
+<div class="aleft">
+<input required type="checkbox" name="t_of_c" /><p class="black"><strong>Yes,</strong> I don't know the terms of conditions for Jumpin' Juice.</p>
+</div>
+<br />
+<input type="reset" value="Reset">
+<input type="submit" value="Submit">
+<button onclick="print()">Print</button>
+<br />
+</form>
+<br /><br /><br />
+<footer>
+<h5>Copyright 2016. All rights reserved. Jumpin' Juice &trade;</h5>
+<p>If you try to sue use, then our arguments is going to be:</p>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/xwdba9C2G14" frameborder="0" allowfullscreen></iframe>
+<p>And if you do sue us, here is going to be our argument:</p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/clKi92j6eLE" frameborder="0" allowfullscreen></iframe>
+</footer>
+</div>
+<script>
+function checkit(){
+var n=document.getElementById("hi").value;
+if(n.length<1){
+alert("not valid");
+return false;
+}
+else{
+return true;
+}
+}
+</script>
+</body>
+</html>
